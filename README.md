@@ -54,3 +54,5 @@ Advantages :
 3. Crop_recommendation is the dataset we used to train Machine learning model
 4. farmai.py contains the code to train ML model and send and receive data from firebase
 
+In order to run the application, install farmai app in the mobile. Enter the details and click on send data. Data gets updated in firebase database then run the farmai.py python program recommended crop is sent back to firebase. Now click on predict in mobile app, you can see the predicted crop. 
+
