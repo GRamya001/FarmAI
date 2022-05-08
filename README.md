@@ -48,4 +48,9 @@ Advantages :
   Increases the crop production. 
   Decreases the cost of food and other items bringing stability in prices. 
 
+# Instructions
+1. Mobile app folder contains the app code which you can import in android studio and run.
+2. Farmai.apk is the android app which you can install and run on android phone
+3. Crop_recommendation is the dataset we used to train Machine learning model
+4. farmai.py contains the code to train ML model and send and receive data from firebase
 
