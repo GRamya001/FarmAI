@@ -3,7 +3,7 @@ One stop solution to help farmers to make better decisions
 
 Agriculture is one of important sector in many countries. Major challenge in agriculture is to
 increase the production in the farm and deliver it to the end customers with best possible
-price and good quality. After doing some research on the internet, I came to know these are
+price and good quality. After doing some research on the internet, we came to know these are
 three major problems faced by farmers these days.
 
   1. Low crop yield – because most of unaware of the fact
@@ -19,7 +19,7 @@ input. We have analysed over 2200 rows dataset of around 25 crops and classified
 groups, trained a model to predict which crop has best crop yield. Then we developed
 android application as a prototype which has three modules which are meant for
 predicting crops, suggesting pesticides for a given crop and displaying current market price
-of crop.
+of crop. Later we intergrated the ML model with an android app using Firebase realtime databases.
 
 Technical implementation:
 
@@ -32,6 +32,10 @@ Dataset:
 Result:
 After training the model, when the model tested upon test data, obtained the
 accuracy around 98 percent.
+
+Mobile App:
+ Used android studio to develop a mobile app using kotlin and added firebase inorder to intergrate
+ it with ML model that predicts crop.
 
 Use cases:
   1. This application can be used by any farmer who has access to a mobile phone.  
